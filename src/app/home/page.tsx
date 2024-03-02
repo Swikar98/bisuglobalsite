@@ -3,16 +3,15 @@ import Text from "../../component/Text";
 import ServicesMenu from "@/component/MainHome/ServicesMenu"
 import DestinationMenu from "@/component/MainHome/DestinationMenu"
 import HomeBackground from "@/component/MainHome/HomeBackground"
-import Shape from "@/component/MainHome/Shape"
+import Shape from "@/component/MainHome/shape"
 import Choose from "@/component/MainHome/chooseus"
 
 export default function Home() {
   return (
     <>
       <HomeBackground  /> 
-      <Shape />
-
       <DestinationMenu/>
+      <Shape/>
       <Choose/>
       <Text />
       <ServicesMenu/>
