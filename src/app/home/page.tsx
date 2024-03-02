@@ -6,9 +6,6 @@ import HomeBackground from "@/component/MainHome/HomeBackground"
 import Shape from "@/component/MainHome/Shape"
 import Choose from "@/component/MainHome/chooseus"
 
-
-
-
 export default function Home() {
   return (
     <>
